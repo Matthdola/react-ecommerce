@@ -11,6 +11,8 @@ import Details from "./components/Details";
 import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 /*
 import { Provider } from "react-redux";
@@ -32,7 +34,8 @@ function App() {
         <Route exact path="/" component={ProductList}></Route>
         <Route path="/details" component={Details}></Route>
         <Route path="/cart" component={Cart}></Route>
-
+        <Route path="/Login" component={Login}></Route>
+        <Route path="/Signup" component={Signup}></Route>
         <Route component={Default}></Route>
       </Switch>
       <Modal />
