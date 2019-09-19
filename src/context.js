@@ -199,6 +199,7 @@ export default class ProductProvider extends Component {
       <ProductContext.Provider
         value={{
           ...this.state,
+          logged: false,
           handleDetail: this.handleDetail,
           addToCart: this.addToCart,
           openModal: this.openModal,

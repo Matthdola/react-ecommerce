@@ -68,14 +68,14 @@ export default class Signup extends Component {
                       </div>
                       <div className="card-footer btn-group">
                         <Link to="/signup">
-                          <ButtonContainer onClick={() => this.goToSignup()}>
+                          <ButtonContainer onClick={() => this.signup()}>
                             Signup
                           </ButtonContainer>
                         </Link>
                         <Link to="/">
                           <button
                             className="btn btn-secondary"
-                            onClick={() => this.login()}
+                            onClick={() => this.cancelSignup()}
                           >
                             Cancel
                           </button>
